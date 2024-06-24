@@ -1,0 +1,92 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    color: #C89B61;
+}
+
+.navbar {
+    background-color: #B2BCB0;
+}
+
+h2 {
+    color: #B2BCB0;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #B2BCB0;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.nav .nav-link :hover,
+.nav-cardapio .nav-link.nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+.section-title {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.text-colored {
+    color: #C89B61;
+}
+
+.amenities-list {
+    list-style: none;
+    padding: 0;
+}
+.amenity-item {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.amenity-item i {
+    margin-right: 10px;
+    color: #C89B61;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #B2BCB0;
+    color: white;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #B2BCB0;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.input-smaller {
+    max-width: 300px; 
+    width: 100%;
+}
+.nav-link.active,
+#contact button {
+    background-color: #B2BCB0;
+    color: white;
+    outline: none; 
+    border: none; 
+}
+
+footer {
+    background-color: #B2BCB0;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 400px;
+    }
+}
